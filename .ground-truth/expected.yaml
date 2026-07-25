@@ -1,0 +1,10 @@
+id: P32-E02
+repository: aci-gt-p32-read-instruction
+visibility: public
+stage: P3
+rule: P3.2
+kind: experiment
+atomic_variable: "读取 instruction file 并进入 context"
+expected_status: REACHABLE
+setup: AUTO_FILES
+configuration_state: COMPLETE
